@@ -5,7 +5,7 @@ var inquirer = require("inquirer");
 var letterArray = "abcdefghijklmnopqrstuvwxyz";
 
 // words list
-var longestRiver = ["missouri", "mississippi", "yukon", "rio grande", "colorado", "arkansas", "columbia", "cameroon", "red", "snake", "ohio", "colorado river of texas", "tennessee", "canadian", "brazos", "green", "pecos", "white river arkansas", "james", "kuskokwim", "cimarron", "cumberland", "yellow stone", "north platte", "milk", "ouachita", "saint lawrence", "gila", "sheyenne", "tanana", "smoky hill", "niobrara", "little missouri", "sabine", "red river of the north", "des moines", "white river missouri", "trinity", "wabash"];
+var longestRiver = ["missouri", "mississippi", "yukon", "rio grande", "colorado", "arkansas", "columbia","red", "snake", "ohio", "colorado river of texas", "tennessee", "canadian", "brazos", "green", "pecos", "white river arkansas", "james", "kuskokwim", "cimarron", "cumberland", "yellow stone", "north platte", "milk", "ouachita", "saint lawrence", "gila", "sheyenne", "tanana", "smoky hill", "niobrara", "little missouri", "sabine", "red river of the north", "des moines", "white river missouri", "trinity", "wabash"];
 
 // Random name from longestRiver array
 var randomName = Math.floor(Math.random() * longestRiver.length);
